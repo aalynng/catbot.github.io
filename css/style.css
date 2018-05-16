@@ -1,0 +1,71 @@
+/*-------------BASE-------------*/
+
+body {
+	background-color: #ABA3BB;
+}
+
+img {
+	height: 320px;
+	transition: all 0.5s ease-in-out;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	position: relative;
+		animation: floating 3s ease infinite;
+}
+
+@keyframes floating {
+	0% {
+		top: 0;
+	}
+	50% {
+		top: 30px;
+	}
+	100% {
+		top: 0;
+	}
+}
+
+img:hover {
+	transform: scale(1.2, 1.2);
+}
+
+/*------------------------------*/
+
+/*----------TYPOGRAPHY----------*/
+
+h1, p {
+	font-family: 'Gaegu';
+	text-align: center;
+}
+
+
+/*------------------------------*/
+
+.box {
+	margin: auto;
+	text-align: center;
+}
+
+.content {
+	display: flex;
+}
+
+.question {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.answerspace {
+	font-size: 	36px;
+	padding: 15px;
+	border: 5px solid #D80E70;
+	width: 500px;
+	background-color: white;
+	text-align: center;
+	border-radius: 10px;
+	z-index: 1;
+	box-shadow: 0 10px rgba(0, 0, 0, 0.11);
+}
