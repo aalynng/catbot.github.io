@@ -13,6 +13,7 @@ var words = [
 	'The worse case thing they can do is say no.',
 	'If you don\'t even try then it is 100% guranteed fail.',
 	'It\'s easier to ask for forgiveness than permission.',
+	'You really have to take a second look if you\'re spending more time salvaging a relationship rather than growing it', 
 	]
 
 var getRandomWord = function () {
