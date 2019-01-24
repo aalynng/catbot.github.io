@@ -13,7 +13,8 @@ var words = [
 	'The worse case thing they can do is say no.',
 	'If you don\'t even try then it is 100% guranteed fail.',
 	'It\'s easier to ask for forgiveness than permission.',
-	'You really have to take a second look if you\'re spending more time salvaging a relationship rather than growing it', 
+	'You really have to take a second look if you\'re spending more time salvaging a relationship rather than growing it',
+	'The golden rule says to treat others the way you want to be treated, but not everyone wants to be treated the way you want to be treated.',
 	]
 
 var getRandomWord = function () {
